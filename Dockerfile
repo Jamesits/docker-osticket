@@ -68,7 +68,7 @@ COPY bin/ /data/bin
 
 # apple patches
 COPY *.diff /data
-RUN cd upload && patch -i patch_1.10_3384.diff
+RUN cd upload && patch -i ../patch_1.10_3384.diff
 
 VOLUME ["/data/upload/include/plugins","/data/upload/include/i18n","/var/log/nginx"]
 EXPOSE 80
