@@ -1,5 +1,5 @@
---- a/include/class.dynamic_forms.php     2016-11-01 22:36:18.000000000 +0800
-+++ b/include/class.dynamic_forms.php     2017-07-20 23:25:44.924000000 +0800
+--- a/include/class.dynamic_forms.php
++++ b/include/class.dynamic_forms.php
 @@ -286,9 +286,8 @@
      }
 
