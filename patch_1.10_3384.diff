@@ -1,5 +1,3 @@
-diff --git a/include/class.dynamic_forms.php b/include/class.dynamic_forms.php
-index 173b0905..6d67cac8 100644
 --- a/include/class.dynamic_forms.php
 +++ b/include/class.dynamic_forms.php
 @@ -300,8 +300,13 @@ class TicketForm extends DynamicForm {
