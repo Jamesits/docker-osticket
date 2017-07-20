@@ -1,6 +1,7 @@
 --- a/include/class.dynamic_forms.php
 +++ b/include/class.dynamic_forms.php
-@@ -300,8 +300,13 @@ class TicketForm extends DynamicForm {
+@@ -300,8 +300,13 @@ 
+class TicketForm extends DynamicForm {
          // ans.entry_id = entry.id LEFT JOIN ost_form_field field ON
          // field.id=ans.field_id
          // where entry.object_type='T' group by entry.object_id;
