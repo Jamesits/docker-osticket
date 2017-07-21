@@ -1,8 +1,6 @@
---- a/include/class.dynamic_forms.php
-+++ b/include/class.dynamic_forms.php
-@@ -286,9 +286,8 @@
-     }
-
+--- upload/include/class.dynamic_forms.php
++++ upload/include/class.dynamic_forms.php
+@@ -288,6 +288,5 @@
      static function buildDynamicDataView($cdata) {
 -        $sql = 'CREATE TABLE IF NOT EXISTS `'.$cdata['table'].'` (PRIMARY KEY
 -                ('.$cdata['object_id'].')) DEFAULT CHARSET=utf8 AS '
