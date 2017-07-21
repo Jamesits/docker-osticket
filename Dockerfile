@@ -66,10 +66,6 @@ COPY php.ini $PHP_INI_DIR/php.ini
 
 COPY bin/ /data/bin
 
-# apple patches
-COPY *.diff /data
-RUN patch -p0 -i patch_1.10_3384.diff
-
 VOLUME ["/data/upload/include/plugins","/data/upload/include/i18n","/var/log/nginx"]
 EXPOSE 80
 CMD ["/data/bin/start.sh"]
