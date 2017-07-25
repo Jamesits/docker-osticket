@@ -1,0 +1,11 @@
+--- upload/include/class.charset.php
++++ upload/include/class.charset.php
+@@ -55,7 +55,5 @@
+         $original = $text;
+-        if (function_exists('iconv'))
+-            $text = iconv($from, $to.'//IGNORE', $text);
+-        elseif (function_exists('mb_convert_encoding'))
++        if (function_exists('mb_convert_encoding'))
+             $text = mb_convert_encoding($text, $to, $from);
+         elseif (!strcasecmp($to, 'utf-8')
+                 && function_exists('utf8_encode')
